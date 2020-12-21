@@ -333,23 +333,23 @@ public class GUIManager implements Listener {
 
             switch (movementType) {
                 case "SWIM":
-                    return Material.TROPICAL_FISH;
+                    return Material.RAW_FISH;
                 case "FLY":
                     return Material.BLAZE_POWDER;
                 case "BOAT":
-                    return Material.OAK_BOAT;
+                    return Material.BOAT;
                 case "MINECART":
                 case "HORSE IN MINECART":
                     return Material.MINECART;
                 case "PIG IN MINECART":
                 case "PIG":
-                    return Material.COOKED_PORKCHOP;
+                    return Material.COOKED_MUTTON;
                 case "HORSE":
-                    return Material.DIAMOND_HORSE_ARMOR;
+                    return Material.DIAMOND_BARDING;
                 case "FLY WITH ELYTRA":
                     return Material.ELYTRA;
                 case "WALK":
-                    return Material.GOLDEN_BOOTS;
+                    return Material.GOLD_BOOTS;
             }
         }
 
