@@ -19,11 +19,11 @@ public enum PlayerStat {
     /**
      * How many times did a player die?
      */
-    DEATHS("deaths", ItemsPickedUpSpecification.class, Material.OAK_SIGN, "How often did I die?"),
+    DEATHS("deaths", ItemsPickedUpSpecification.class, Material.SIGN, "How often did I die?"),
     /**
      * How many times did a player catch an item with fishing?
      */
-    ITEMS_CAUGHT("items_caught", ItemsPickedUpSpecification.class, Material.GOLDEN_SHOVEL, "How many items caught " +
+    ITEMS_CAUGHT("items_caught", ItemsPickedUpSpecification.class, Material.GOLD_SPADE, "How many items caught " +
             "while fishing?"),
     /**
      * What kind of blocks (and how many) where placed by a player?
@@ -39,7 +39,7 @@ public enum PlayerStat {
     /**
      * What kind of mobs did a player kill?
      */
-    KILLS_MOBS("kills_mobs", ItemsPickedUpSpecification.class, Material.SKELETON_SKULL, "How many mobs did I kill?"),
+    KILLS_MOBS("kills_mobs", ItemsPickedUpSpecification.class, Material.SKULL_ITEM, "How many mobs did I kill?"),
 
     /**
      * How many players did a player kill?
@@ -50,12 +50,12 @@ public enum PlayerStat {
     /**
      * How many minutes has a player played on the server?
      */
-    TIME_PLAYED("time_played", ItemsPickedUpSpecification.class, Material.CLOCK, "What's my playtime?"),
+    TIME_PLAYED("time_played", ItemsPickedUpSpecification.class, Material.WATCH, "What's my playtime?"),
 
     /**
      * What food has a player eaten?
      */
-    FOOD_EATEN("food_eaten", ItemsPickedUpSpecification.class, Material.COOKED_PORKCHOP, "How much have I eaten?"),
+    FOOD_EATEN("food_eaten", ItemsPickedUpSpecification.class, Material.GRILLED_PORK, "How much have I eaten?"),
 
     /**
      * How much damage has a player taken?
@@ -78,13 +78,13 @@ public enum PlayerStat {
     /**
      * What kind of items did a player craft?
      */
-    ITEMS_CRAFTED("items_crafted", ItemsPickedUpSpecification.class, Material.CRAFTING_TABLE, "How many items did I " +
+    ITEMS_CRAFTED("items_crafted", ItemsPickedUpSpecification.class, Material.WORKBENCH, "How many items did I " +
             "craft?"),
 
     /**
      * How much XP did a player gain in total?
      */
-    XP_GAINED("xp_gained", ItemsPickedUpSpecification.class, Material.EXPERIENCE_BOTTLE, "How much EXP did I gain?"),
+    XP_GAINED("xp_gained", ItemsPickedUpSpecification.class, Material.EXP_BOTTLE, "How much EXP did I gain?"),
 
     /**
      * How many times did a player vote (with Votifier)?
@@ -104,7 +104,7 @@ public enum PlayerStat {
     /**
      * How many times did a player enter a bed and on what world?
      */
-    ENTERED_BEDS("entered_beds", ItemsPickedUpSpecification.class, Material.PINK_BED, "How often have I slept?"),
+    ENTERED_BEDS("entered_beds", ItemsPickedUpSpecification.class, Material.BED, "How often have I slept?"),
 
     /**
      * What commands did a player perform and on what world?
@@ -154,7 +154,7 @@ public enum PlayerStat {
     /**
      * How many items did a player pick up?
      */
-    ITEMS_PICKED_UP("items_picked_up", ItemsPickedUpSpecification.class, Material.WHEAT_SEEDS,
+    ITEMS_PICKED_UP("items_picked_up", ItemsPickedUpSpecification.class, Material.SEEDS,
             "How many items did I pick up?"
     ),
 

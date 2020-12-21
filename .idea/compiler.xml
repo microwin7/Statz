@@ -9,8 +9,5 @@
         <module name="Statz" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Statz" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

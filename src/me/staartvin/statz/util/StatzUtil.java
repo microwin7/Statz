@@ -5,6 +5,7 @@ import me.staartvin.statz.datamanager.player.PlayerStat;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.material.MaterialData;
 import org.bukkit.entity.*;
 import org.bukkit.entity.Rabbit.Type;
 
